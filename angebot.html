@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Angebot</title>
+    <link rel="stylesheet" href="zurück.css" />
+    <style>
+      body {
+        background-image: url("images/meer.jfif");
+        background-size: 100% 1200px;
+      }
+      .angebot {
+        display: inline-block;
+        height: 350px;
+        width: calc(15%);
+      }
+      .angebot_left {
+        margin-left: 2%;
+      }
+      button {
+        margin-left: 20%;
+        padding: 20px 20px;
+        border: 2px solid #fff;
+        border-radius: 16px;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: turquoise;
+        color: black;
+        font-weight: bold;
+      }
+      h2,
+      p,
+      label {
+        text-align: center;
+        font-size: 21px;
+        font-family: "Dancing Script", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <header><div class="zurück">
+      <i class="fas fa-home"></i>
+      <a href="index.html">zurück gehen</a>
+    </div></header>
+    <section>
+      <h2>Persönliches Angebot anfragen</h2>
+      <p>
+        Gerne senden wir Ihnen ein persönliches Angebot mit speziell auf Ihre
+        Anfrage kalkulierten Preisen zu.
+      </p>
+      <div class="angebot angebot_left">
+        <label for="">Anrede</label>
+        <br />
+        <select>
+          <option>Herr</option>
+          <option>Frau</option>
+        </select>
+        <br /><br />
+        <label>Firma</label>
+        <br />
+        <input type="text" />
+        <br />
+        <label>Name *</label>
+        <br />
+        <input type="text" />
+        <br />
+        <label>Strasse *</label>
+        <br />
+        <input type="text" />
+        <br />
+        <label>PLZ *</label>
+        <br />
+        <input type="number" />
+        <br />
+        <label>Ort </label>
+        <br />
+        <input type="text" />
+        <br />
+        <label>Telefon </label>
+        <br />
+        <input type="tel" />
+        <br />
+      </div>
+      <div class="angebot">
+        <label>Anzahl </label>
+        <br />
+        <input type="number" />
+        <br />
+        <label>Größe auswählen </label>
+        <br />
+        <select>
+          <option>Maße auswählen</option>
+          <option value="masse">20 * 60 cm</option>
+          <option value="mase">40 * 60 cm</option>
+          <option value="masse">60 * 90 cm</option>
+        </select>
+        <br />
+
+        <label>E-Mail * </label>
+        <br />
+        <input type="email" />
+        <br />
+        <label>Ihre Anfrage oder Kommentar </label>
+        <br />
+        <textarea name="" id="" cols="30" rows="11"></textarea>
+        <br />
+      </div>
+    </section>
+    <section>
+      <button>Anfrage abschicken</button>
+    </section>
+   
+  </body>
+</html>
